@@ -1,0 +1,52 @@
+.main-top-section {
+  width: 100%;
+  height: 300px;
+  background: url(http://i.imgur.com/WfPT5fD.jpg) right no-repeat;
+  background-size:cover;
+}
+.title-container {
+  padding-top: 120px;
+  padding-left: 20px;
+}
+.main-top-title {
+  font-size: 42px;
+  font-weight: 700;
+
+}
+.CTA {
+  width: 140px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  border:none;
+}
+.item-main-container {
+  width: 100%;
+}
+.item {
+  width: 50%;
+  height: 200px;
+  background: #000;
+  float: left;
+}
+
+#item2 {
+  background: lightblue;
+}
+#item3 {
+  background: #999;
+}
+#item4 {
+  background: #666666;
+}
+@media(min-width: 900px) {
+  .main-top-section {
+    background: orange;
+  }
+}
+@media(min-width: 1200px) {
+  .main-top-section {
+    background: red;
+  }
+}
